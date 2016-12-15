@@ -13,8 +13,7 @@ A boilerplate for the community to understand how to build their own custom Odoo
     ],
     "data": [
 	"email_designer_snippets.xml",
-	"theme_community_boilerplate_template.xml",
-#   "theme_default_template.xml",
+	"views/theme_boilerplate_template.xml",
     ],
     "qweb": [],
     "demo": [
