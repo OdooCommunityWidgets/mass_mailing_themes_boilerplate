@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     "name": "Mass Mailing Themes Community Boilerplate",
-    "summary": "A boilerplate for the community to understand how to build their own custom Odoo Mass Mailing Themes",
+    "summary": "Mass Mailing Boilerplate Theme",
     "description": """
 A boilerplate for the community to understand how to build their own custom Odoo Mass Mailing Themes
     """,
