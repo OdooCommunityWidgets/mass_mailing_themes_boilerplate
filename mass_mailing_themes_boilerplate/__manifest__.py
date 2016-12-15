@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     "name": "Mass Mailing Themes Community Boilerplate",
-    "summary": "A boilerplate for the community to understand how to build their own custom Odoo Mass Mailing Themes",
+    "summary": "Mass Mailing Boilerplate Theme",
     "description": """
 A boilerplate for the community to understand how to build their own custom Odoo Mass Mailing Themes
     """,
@@ -12,7 +12,7 @@ A boilerplate for the community to understand how to build their own custom Odoo
         "mass_mailing",
     ],
     "data": [
-	"email_designer_snippets.xml",
+	"views/email_designer_snippets.xml",
 	"views/theme_boilerplate_template.xml",
     ],
     "qweb": [],
