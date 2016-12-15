@@ -12,7 +12,7 @@ A boilerplate for the community to understand how to build their own custom Odoo
         "mass_mailing",
     ],
     "data": [
-	"email_designer_snippets.xml",
+	"views/email_designer_snippets.xml",
 	"views/theme_boilerplate_template.xml",
     ],
     "qweb": [],
