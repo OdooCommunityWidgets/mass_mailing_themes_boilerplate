@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <template id="theme_boilerplate" name="Boilerplate Theme">
+    <div class="o_mail_block_header_social">
+      <div class="o_mail_snippet_general">
+        <!-- HEADER BLOCKS -->
+        <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_header_social" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_social.png"/>
+        <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_header_banner" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_text_social.png"/>
+
+        <!-- BODY BLOCKS -->
+        <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_three_icon" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_social.png"/>
+        <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_slogan_bar" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_social.png"/>
+        <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_main_content_panel" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_social.png"/>
+        <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_half_left" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_social.png"/>
+        <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_half_right" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_social.png"/>
+        <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_youtube_panel" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_social.png"/>
+        <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_cta" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_social.png"/>
+        <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_features" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_social.png"/>
+        <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_specifications" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_social.png"/>
+
+        <!-- EXTRA BLOCKS -->
+        <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_brand_cards" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_social.png"/>
+        <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_group_banner" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_social.png"/>
+    </div>
+  </div>
+    <!-- FOOTER BLOCKS -->
+    <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_footer" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_social.png"/>
+  </template>
+  <template id="email_designer_snippets_boilerplate" inherit_id="mass_mailing.email_designer_snippets" name="Theme Boilerplate Snippets">
+    <xpath expr="//div[@id='email_designer_default_headers']/div[2]" position="inside">
+      <!-- HEADER SNIPPETS -->
+      <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_header_social" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_social.png"/>
+      <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_header_banner" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_text_social.png"/>
+    </xpath>
+    <xpath expr="//div[@id='email_designer_default_body']/div[2]" position="inside">
+      <!-- BODY SNIPPETS -->
+      <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_three_icon" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_social.png"/>
+      <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_slogan_bar" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_social.png"/>
+      <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_main_content_panel" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_social.png"/>
+      <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_half_left" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_social.png"/>
+      <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_half_right" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_social.png"/>
+      <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_youtube_panel" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_social.png"/>
+      <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_cta" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_social.png"/>
+      <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_features" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_social.png"/>
+      <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_specifications" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_social.png"/>
+    </xpath>
+    <xpath expr="//div[@id='email_designer_default_extra']/div[2]" position="inside">
+      <!-- EXTRA SNIPPETS -->
+      <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_brand_cards" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_social.png"/>
+      <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_group_banner" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_social.png"/>
+    </xpath>
+    <xpath expr="//div[@id='email_designer_default_footer']/div[2]" position="inside">
+      <!-- FOOTER SNIPPETS -->
+      <t t-snippet="mass_mailing_themes_boilerplate.boilerplate_mail_block_footer" t-thumbnail="/mass_mailing/static/src/img/blocks/block_header_social.png"/>
+    </xpath>
+  </template>
+  <!-- SNIPPET TEMPLATES -->
+  <!-- SNIPPET HEADER TEMPLATES -->
+  <template id="boilerplate_mail_block_header_social" name="Header Logo + Social">
+    <div class="o_mail_block_header_social">
+      <div class="o_mail_snippet_general">
+        <!-- CONTENT HERE -->
+      </div>
+    </div>
+  </template>
+  </odoo>
